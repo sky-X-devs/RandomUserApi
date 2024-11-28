@@ -1,0 +1,49 @@
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.layout{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px ;
+    justify-content:center;
+    right: auto;
+    left: auto;
+}
+.user{
+    
+    border: solid 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 12px 25px;
+    border-radius: 6px;
+}
+.user p{
+    display: flex;
+    justify-content: center;
+    font-weight:600;
+    font-size: large;
+}
+
+.user img{
+    border-radius: 100%;
+}
+
+.amu-button{
+    position: relative;
+    left: 50%;
+    background-color:transparent;
+    color:black;
+    border-radius: 4px;
+    text-align: center ;
+    padding: 10px 25px;
+    font-weight: 500;
+    -ms-transform: translate(-50%,50%);
+    transform: translate(-50%,50%);
+}
+.amu-button:hover{
+    background-color: #cfc9c9;
+    border-radius: 4px;
+  }
